@@ -1,0 +1,92 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header with logo */
+header {
+    background-color: #002147;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.logo {
+    width: 50px;
+}
+
+/* Navigation */
+nav {
+    background-color: #004080;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+/* Hover effect */
+nav a:hover {
+    background-color: #0066cc;
+}
+
+/* ACTIVE PAGE */
+nav a.active {
+    background-color: white;
+    color: #004080;
+}
+
+/* Hero */
+.hero {
+    background: linear-gradient(to right, #cce0ff, #e6f0ff);
+    padding: 60px;
+    text-align: center;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    margin: 20px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Form styling */
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #004080;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0066cc;
+}
+
+/* Footer */
+footer {
+    background-color: #002147;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
