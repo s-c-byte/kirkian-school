@@ -1,12 +1,12 @@
 body {
     font-family: Arial;
     margin: 0;
-    background-color: #f4f4f4;
+    background-color: whitesmoke;
 }
 
-/* Header with logo */
+
 header {
-    background-color: #002147;
+    background-color: navy;
     color: white;
     padding: 15px;
     display: flex;
@@ -19,9 +19,9 @@ header {
     width: 50px;
 }
 
-/* Navigation */
+
 nav {
-    background-color: #004080;
+    background-color: darkblue;
     text-align: center;
     padding: 12px;
 }
@@ -35,25 +35,25 @@ nav a {
     border-radius: 5px;
 }
 
-/* Hover effect */
+
 nav a:hover {
-    background-color: #0066cc;
+    background-color: dodgerblue;
 }
 
-/* ACTIVE PAGE */
+
 nav a.active {
     background-color: white;
-    color: #004080;
+    color: darkblue;
 }
 
-/* Hero */
+
 .hero {
-    background: linear-gradient(to right, #cce0ff, #e6f0ff);
+    background: linear-gradient(to right, lightblue, aliceblue);
     padding: 60px;
     text-align: center;
 }
 
-/* Content */
+
 .content {
     background-color: white;
     margin: 20px;
@@ -62,16 +62,16 @@ nav a.active {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-/* Form styling */
+
 input, textarea {
     width: 80%;
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid lightgray;
 }
 
 button {
-    background-color: #004080;
+    background-color: darkblue;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -80,12 +80,12 @@ button {
 }
 
 button:hover {
-    background-color: #0066cc;
+    background-color: dodgerblue;
 }
 
-/* Footer */
+
 footer {
-    background-color: #002147;
+    background-color: navy;
     color: white;
     text-align: center;
     padding: 10px;
