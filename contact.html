@@ -3,14 +3,90 @@
 <head>
     <title>Contact - Kirkian High School</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #f0f4f8;
+            font-family: Georgia, serif;
+            color: #333;
+        }
+ 
+        header {
+            background-color: #1a3c6e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+ 
+        .content {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+ 
+        h2 {
+            color: #1a3c6e;
+        }
+ 
+        h3 {
+            color: #2e5fa3;
+        }
+ 
+        .box {
+            padding: 20px 25px;
+            margin: 10px 0 25px 0;
+            border-radius: 12px;
+            border-left: 5px solid;
+        }
+ 
+        .box-blue {
+            background-color: #ddeeff;
+            border-color: #2e5fa3;
+        }
+ 
+        .box-green {
+            background-color: #e2f5ea;
+            border-color: #2e8b57;
+        }
+ 
+        .box-green input,
+        .box-green textarea {
+            width: 95%;
+            padding: 10px;
+            margin-bottom: 12px;
+            border: 1px solid #b2d8be;
+            border-radius: 8px;
+            background-color: #f6fff8;
+            font-family: Georgia, serif;
+            font-size: 14px;
+        }
+ 
+        .box-green button {
+            background-color: #2e8b57;
+            color: white;
+            border: none;
+            padding: 10px 25px;
+            border-radius: 8px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+ 
+        .box-green button:hover {
+            background-color: #246b44;
+        }
+ 
+        footer {
+            background-color: #1a3c6e;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
 </head>
-
 <body>
-
 <header>
     <h1>Kirkian High School</h1>
 </header>
-
 <nav>
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
@@ -18,28 +94,27 @@
     <a href="admissions.html">Admissions</a>
     <a href="contact.html">Contact</a>
 </nav>
-
 <section class="content">
     <h2>Contact Us</h2>
-
-    <p>Email: info@kirkianhighschool.com</p>
-    <p>Phone: +977-67676767</p>
-    <p>Address: Bharatpur, Nepal</p>
-
+ 
+    <div class="box box-blue">
+        <p>Email: info@kirkianhighschool.com</p>
+        <p>Phone: +977-67676767</p>
+        <p>Address: Bharatpur, Nepal</p>
+    </div>
+ 
     <h3>Send Message</h3>
-
-    <form>
-        <input type="text" placeholder="Your Name"><br><br>
-        <input type="email" placeholder="Your Email"><br><br>
-        <textarea placeholder="Your Message"></textarea><br><br>
-        <button type="submit">Send</button>
-    </form>
-
+    <div class="box box-green">
+        <form>
+            <input type="text" placeholder="Your Name"><br>
+            <input type="email" placeholder="Your Email"><br>
+            <textarea placeholder="Your Message" rows="5"></textarea><br>
+            <button type="submit">Send</button>
+        </form>
+    </div>
 </section>
-
 <footer>
     <p>© 2026 Kirkian High School</p>
 </footer>
-
 </body>
 </html>
